@@ -1,0 +1,27 @@
+# Python environment
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Testing and cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Temporary uploads
+data/uploads/
+
+# Invalid Power BI placeholder
+*.pbix*.pbix
